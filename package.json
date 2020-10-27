@@ -1,0 +1,18 @@
+{
+  "name": "mern-app-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node install.js",
+    "build": "node build.js",
+    "full-build": "npm install && npm run build",
+    "start": "concurrently \"cd frontend-1 && npm start\" \"cd server && npm run watch\"",
+    "full-start": "npm install && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^3.6.1"
+  },
+  "author": "Uladzislau Padolski",
+  "license": "ISC"
+}

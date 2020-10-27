@@ -1,0 +1,36 @@
+.user-item-wrapper {
+    width: 100%;
+    height: auto;
+    margin: 40px 0 10px;
+    border: 1px solid lightgray;
+    border-bottom: none;
+}
+
+.user-item {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.user-item p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 10px 5px; 
+    margin: 0;
+}
+
+.user-item p:not(:last-child) {
+    border-right: 1px solid lightgray;;
+}
+
+.table-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.user-item__info {
+    font-weight: 700;
+} 

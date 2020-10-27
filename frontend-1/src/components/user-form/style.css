@@ -1,0 +1,64 @@
+.user-form {
+    width: 50%;
+    height: auto;
+    box-shadow: 0 0 2px rgb(112, 111, 111);
+}
+
+.field-for-data,
+.field-for-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+
+.field-for-btn {
+    justify-content: center;
+}
+
+.field-for-data input {
+    width: 60%;
+    min-width: 100px;
+    border: none;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 0 0 1px rgb(112, 111, 111);
+    outline: none;
+}
+ 
+.field-for-data label {
+    width: 35%;
+}
+
+.user-form__button {
+    height: 30px;
+    width: 50%;
+    background-color: rgb(127, 196, 184);
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    box-shadow: 2px 2px 1px rgba(201, 201, 201, 0.548);
+    border-radius: 2px;
+    transition: all .3s;
+}
+
+.user-form__button:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 1px rgba(184, 184, 184, 0.548);
+  transition: all .3s;
+}
+
+.field-for-data input:active,
+.field-for-data input:focus,
+.user-form__button:active {
+    outline: none;
+}
+
+.user-form__button:active {
+    box-shadow: none;
+    transition: all .2s;
+}
+
+.incorrect {
+    box-shadow: 0 0 2px red !important;
+}
